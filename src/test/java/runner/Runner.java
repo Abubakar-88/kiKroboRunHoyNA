@@ -12,6 +12,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 	features = "src//test//resources//features",
 	glue = "step_definitions",
+	strict = true,
 	monochrome = true ,
 	dryRun=false,
 	plugin = {"pretty", "html:test-output", "json:target/cucumber-report/cucumber.json" }
