@@ -19,7 +19,7 @@ public class Hooks extends Base{
 		browser = new ChromeDriver(option);
 		browser.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
-		
+	
 		
 		
 	}
