@@ -8,7 +8,7 @@ import org.openqa.selenium.WebDriver;
 
 
 public class Base {
-	public static WebDriver browser;
+	public static WebDriver driver;
 	
 	public static void click(By by) {
 
