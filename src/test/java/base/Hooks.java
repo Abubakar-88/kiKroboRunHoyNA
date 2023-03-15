@@ -18,9 +18,7 @@ public class Hooks extends Base{
 		WebDriverManager.chromedriver().setup();
 		browser = new ChromeDriver(option);
 		browser.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		
-	
-		
+		//JENKIN
 		
 	}
 	@After
